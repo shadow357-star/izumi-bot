@@ -7,7 +7,7 @@ const {
 } = require("../lib/database/chatBot");
 const contextInfo = {
     externalAdReply: {
-        title: "AI Generated Image",
+        title: "AI Generated",
         body: "Powered by Eypz AI",
         mediaType: 2,
         thumbnailUrl: "https://files.catbox.moe/1z6pjq.png",
