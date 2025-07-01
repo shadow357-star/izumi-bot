@@ -2,7 +2,7 @@ const { izumi, mode, isAdmin, sleep, parsedJid } = require("../lib/");
 const config = require("../config");
 const antiwordCheck = require('../lib/antiword');
 const antiLinkCheck = require('../lib/antilink');
-const { setAntiword } = require('../lib/database/antiword');
+const { setAntiword, getAntiword } = require('../lib/database/antiword');
 const { setAntiLink, getAntiLink } = require('../lib/database/antilink');
 const checkPermissions = async (message) => {
     if (message.isSudo) return true;
